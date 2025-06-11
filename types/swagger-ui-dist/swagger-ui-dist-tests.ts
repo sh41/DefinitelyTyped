@@ -1,7 +1,7 @@
 import SwaggerUIDist = require("swagger-ui-dist");
 import express = require("express");
 import absolutePath = require("swagger-ui-dist/absolute-path");
-import {absolutePath as absolutePathAlias, getAbsoluteFSPath, SwaggerUIBundle} from "swagger-ui-dist";
+import { absolutePath as absolutePathAlias, getAbsoluteFSPath, SwaggerUIBundle } from "swagger-ui-dist";
 
 SwaggerUIDist.getAbsoluteFSPath(); // $ExpectType string
 SwaggerUIDist.absolutePath(); // $ExpectType string
